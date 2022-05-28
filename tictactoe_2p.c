@@ -103,6 +103,7 @@ void controlLoop() { // control loop called on player's turn
       if (grid[y][x] == '_') { // if the tile is blank, place X
         grid[y][x] = 'X';
         drawGrid();
+        x++;
         refresh();
       }
       break;
@@ -110,6 +111,7 @@ void controlLoop() { // control loop called on player's turn
       if (grid[y][x] == '_') {
         grid[y][x] = 'O';
         drawGrid();
+        x++;
         refresh();
       }
       break;
