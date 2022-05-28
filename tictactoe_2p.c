@@ -15,6 +15,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <stdio.h>
 #include <curses.h>
 
 char grid[3][3]; // tictactoe grid, first index is row, second is column
